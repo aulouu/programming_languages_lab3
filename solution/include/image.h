@@ -21,7 +21,7 @@ struct pixel {
 
 struct image create_image(const size_t width, const size_t height);
 
-void delete_image(struct image image);
+void delete_image(struct image* img);
 
 uint32_t get_padding(const uint32_t width);
 

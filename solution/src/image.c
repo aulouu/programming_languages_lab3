@@ -15,9 +15,9 @@ struct image create_image(const size_t width, const size_t height) {
     };
 }
 
-void delete_image (struct image image) {
-    free(image.data);
-    image.data = NULL;
+void delete_image(struct image* img) {
+    free(img -> data);
+    img -> data = NULL;
 }
 
 uint32_t get_padding(const uint32_t width) {

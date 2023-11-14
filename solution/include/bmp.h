@@ -5,9 +5,18 @@
 #ifndef IMAGE_TRANSFORMER_BMP_H
 #define IMAGE_TRANSFORMER_BMP_H
 
-#include  <stdint.h>
+#include <stdint.h>
 #include <stdio.h>
 #include <image.h>
+
+#define BMP_STRUCT_SIZE sizeof(struct bmp_header)
+#define BMP_TYPE 0x4D42
+#define ZERO 0
+#define BMP_SIZE 40
+#define BMP_PLANES 1
+#define BIT_COUNT 24
+#define BMP_COMPRESSION_TYPE 0
+#define PELS_PER_METER 2834
 
 #pragma pack(push, 1)
 struct bmp_header
@@ -16,7 +25,6 @@ struct bmp_header
     uint32_t bfileSize;
     uint32_t bfReserved;
     uint32_t bOffBits;
-
     uint32_t biSize;
     uint32_t biWidth;
     uint32_t biHeight;

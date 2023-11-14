@@ -20,16 +20,15 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f47f756-787d-4fdc-ab06-35c3faa7a983" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/solution/include/file.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/include/rotate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/src/rotate.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solution/CMakeLists.txt" afterDir="false" />
+    <list default="true" id="2f47f756-787d-4fdc-ab06-35c3faa7a983" name="Changes" comment="/">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/include/bmp.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/include/bmp.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/include/image.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/include/image.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/include/rotate.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/include/rotate.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/src/bmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/solution/src/bmp.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/src/image.c" beforeDir="false" afterPath="$PROJECT_DIR$/solution/src/image.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/solution/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/src/rotate.c" beforeDir="false" afterPath="$PROJECT_DIR$/solution/src/rotate.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +125,8 @@
       <workItem from="1699612311749" duration="3000" />
       <workItem from="1699612349542" duration="3000" />
       <workItem from="1699612380450" duration="2718000" />
-      <workItem from="1699878423554" duration="113000" />
+      <workItem from="1699878423554" duration="13500000" />
+      <workItem from="1699946587739" duration="4533000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -136,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698785771037</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="/">
+      <option name="closed" value="true" />
+      <created>1699878569450</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699878569450</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +158,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="/" />
+    <option name="LAST_COMMIT_MESSAGE" value="/" />
   </component>
 </project>
