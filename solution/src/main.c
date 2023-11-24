@@ -23,9 +23,9 @@ int main(int argc, char** argv) {
         return 1;
     }
 
-    struct image img = {0};
+    struct image* img = malloc(sizeof(struct image));
 
-    if (from_bmp(input, &img) != READ_OK) {
+    if (from_bmp(input, img) != READ_OK) {
         fprintf(stderr, "Error with reading image");
         return 1;
     }
@@ -49,7 +49,7 @@ int main(int argc, char** argv) {
 
     fclose(input);
     fclose(output);
-    delete_image(&img);
+    delete_image(img);
     delete_image(&rotated_image);
 
     return 0;

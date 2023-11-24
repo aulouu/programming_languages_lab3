@@ -5,6 +5,6 @@
 #ifndef IMAGE_TRANSFORMER_ROTATE_H
 #define IMAGE_TRANSFORMER_ROTATE_H
 
-struct image rotate(struct image const source, int angle);
+struct image rotate(struct image const* source, int angle);
 
 #endif //IMAGE_TRANSFORMER_ROTATE_H
