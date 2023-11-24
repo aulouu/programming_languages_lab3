@@ -31,10 +31,6 @@ int main(int argc, char** argv) {
     }
 
     int angle = atoi(argv[3]);
-    if (angle % 90 != 0) {
-        fprintf(stderr, "Angle is not correct");
-    }
-
     struct image rotated_image = rotate(img, angle);
 
     if (rotated_image.data == NULL) {

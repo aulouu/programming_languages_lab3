@@ -28,10 +28,10 @@ struct bmp_header create_new_bmp_header(struct image const* img) {
 
 enum read_status from_bmp(FILE* in, struct image* img) {
     if (!in || !img) return READ_INVALID_SIGNATURE;
-    struct bmp_header* header = malloc(BMP_STRUCT_SIZE);
-    if (!fread(header, BMP_STRUCT_SIZE, 1, in))
+    struct bmp_header header = {0};/*malloc(BMP_STRUCT_SIZE)*/;
+    if (!fread(&header, BMP_STRUCT_SIZE, 1, in))
         return READ_INVALID_HEADER;
-    *img = create_image(header -> biWidth, header -> biHeight);
+    *img = create_image(header.biWidth, header.biHeight);
     for (size_t i = 0; i < img -> height; i++) {
         if (!fread(img -> data + i * img -> width, STRUCT_SIZE, img -> width, in)){
             delete_image(img);
@@ -41,7 +41,6 @@ enum read_status from_bmp(FILE* in, struct image* img) {
             delete_image(img);
             return READ_INVALID_BITS;
         }
-
     }
     return READ_OK;
 }
