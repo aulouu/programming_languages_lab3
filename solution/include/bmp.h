@@ -5,9 +5,9 @@
 #ifndef IMAGE_TRANSFORMER_BMP_H
 #define IMAGE_TRANSFORMER_BMP_H
 
+#include <image.h>
 #include <stdint.h>
 #include <stdio.h>
-#include <image.h>
 
 #define BMP_STRUCT_SIZE sizeof(struct bmp_header)
 #define BMP_TYPE 0x4D42

@@ -4,6 +4,7 @@
 
 #include "../include/rotate.h"
 #include "../include/image.h"
+#include <stdint.h>
 
 int rotate90(struct image const* oldImage, struct image* newImage) {
     for (size_t i = 0; i < newImage -> height; i++) {

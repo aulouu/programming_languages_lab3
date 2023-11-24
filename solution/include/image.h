@@ -5,7 +5,8 @@
 #ifndef IMAGE_TRANSFORMER_IMAGE_H
 #define IMAGE_TRANSFORMER_IMAGE_H
 
-#include  <stdint.h>
+#include <stddef.h>
+#include <stdint.h>
 
 #define STRUCT_SIZE sizeof(struct pixel)
 #define FACT_SIZE 4

@@ -1,8 +1,9 @@
+#include "../include/bmp.h"
+#include "../include/file.h"
+#include "../include/rotate.h"
+#include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "../include/file.h"
-#include "../include/bmp.h"
-#include "../include/rotate.h"
 
 int main(int argc, char** argv) {
 
@@ -46,6 +47,7 @@ int main(int argc, char** argv) {
     fclose(input);
     fclose(output);
     delete_image(img);
+    free(img);
     delete_image(&rotated_image);
 
     return 0;

@@ -20,16 +20,14 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f47f756-787d-4fdc-ab06-35c3faa7a983" name="Changes" comment="//////">
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/assignment-3-image-rotation/v17/Browse.VC.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/assignment-3-image-rotation/v17/Browse.VC.db-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/assignment-3-image-rotation/v17/Browse.VC.db-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite-journal" afterDir="false" />
+    <list default="true" id="2f47f756-787d-4fdc-ab06-35c3faa7a983" name="Changes" comment="//////*">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/include/bmp.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/include/bmp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/include/image.h" beforeDir="false" afterPath="$PROJECT_DIR$/solution/include/image.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solution/src/bmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/solution/src/bmp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/src/image.c" beforeDir="false" afterPath="$PROJECT_DIR$/solution/src/image.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/solution/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/src/rotate.c" beforeDir="false" afterPath="$PROJECT_DIR$/solution/src/rotate.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +129,7 @@
       <workItem from="1700049219419" duration="765000" />
       <workItem from="1700733078452" duration="1954000" />
       <workItem from="1700828981466" duration="6295000" />
-      <workItem from="1700860607641" duration="3000" />
+      <workItem from="1700860607641" duration="2234000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -165,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700839549849</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="//////*">
+      <option name="closed" value="true" />
+      <created>1700860850137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700860850137</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +188,7 @@
     <MESSAGE value="/" />
     <MESSAGE value="//" />
     <MESSAGE value="//////" />
-    <option name="LAST_COMMIT_MESSAGE" value="//////" />
+    <MESSAGE value="//////*" />
+    <option name="LAST_COMMIT_MESSAGE" value="//////*" />
   </component>
 </project>

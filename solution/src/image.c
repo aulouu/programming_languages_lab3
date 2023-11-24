@@ -3,6 +3,7 @@
 //
 
 #include "../include/image.h"
+#include <stdint.h>
 #include <stdlib.h>
 
 struct image create_image(const size_t width, const size_t height) {
