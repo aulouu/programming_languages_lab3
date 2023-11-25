@@ -15,7 +15,6 @@
 #define BMP_SIZE 40
 #define BMP_PLANES 1
 #define BIT_COUNT 24
-#define BMP_COMPRESSION_TYPE 0
 #define PELS_PER_METER 2834
 
 #pragma pack(push, 1)

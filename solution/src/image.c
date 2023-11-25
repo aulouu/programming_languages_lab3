@@ -17,7 +17,7 @@ struct image create_image(const size_t width, const size_t height) {
 }
 
 void delete_image(struct image* img) {
-    free(img -> data);
+    free(img->data);
     img -> data = NULL;
 }
 

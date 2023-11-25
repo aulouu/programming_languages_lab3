@@ -26,6 +26,11 @@ int main(int argc, char** argv) {
 
     struct image* img = malloc(sizeof(struct image));
 
+    if (img == NULL) {
+        fprintf(stderr, "Error with allocating memory");
+        return 1;
+    }
+
     if (from_bmp(input, img) != READ_OK) {
         fprintf(stderr, "Error with reading image");
         return 1;
